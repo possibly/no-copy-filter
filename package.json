@@ -1,0 +1,21 @@
+{
+  "name": "no-copy-filter",
+  "version": "1.0.0",
+  "description": "A filter for Bruno Dias' Improv engine that will choose groups with non-matching tags or mismatched tags.",
+  "main": "noCopyFilter.js",
+  "scripts": {
+    "test": "npm install --devDepedencies && node test.js && exit 1"
+  },
+  "keywords": [
+    "improv-filter"
+  ],
+  "author": "Tyler Brothers <tylerbrothers1@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.8.0",
+    "improv": "^1.0.0",
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
